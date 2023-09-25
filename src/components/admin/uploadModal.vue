@@ -1,5 +1,6 @@
 <script>
 import axios from "@/plugins/axios";
+import Cookies from "js-cookie";
 
 export default {
     name: "uploadModal",
@@ -43,6 +44,7 @@ export default {
 
             const response = await axios.post("api/Video", formData, {
                     headers: {
+                        'Authorization' : `Bearer ${Cookies.get("access_token")}`,
                         'Content-Type': 'multipart/form-data'
                     },
                 onUploadProgress: ({ loaded, total }) => {

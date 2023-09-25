@@ -3,7 +3,7 @@ import Cookies from 'js-cookie';
 const instance = axios.create({
     baseURL: "http://64.227.42.134:7777/",
     headers:{
-        ['Authorization'] : `Bearer ${Cookies.get("access_token")}`
+        'Authorization' : `Bearer ${Cookies.get("access_token")}`
     }
 });
 
