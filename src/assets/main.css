@@ -1,0 +1,15 @@
+
+:root {
+  --bg-color:linear-gradient(260deg, #1F1D26 27%, #191B26 66%, #1D1825 74%);
+}
+
+body {
+  /*background: linear-gradient(260deg, #1F1D26 27%, #191B26 66%, #1D1825 74%);*/
+background: var(--bg-color);
+}
+.dark-bg
+{
+  background: var(--bg-color);
+
+}
+
