@@ -1,5 +1,6 @@
 <script>
 import axios from "@/plugins/axios";
+import Cookies from "js-cookie";
 
 export default {
     name: "deleteMovieModal",
@@ -20,7 +21,9 @@ export default {
         },
         async confirmDelete() {
 
-            const response = await axios.delete("api/Video/"+this.videoId);
+            const response = await axios.delete("api/Video/"+this.videoId,{
+                headers:{ 'Authorization' : `Bearer ${Cookies.get("access_token")}` }
+            });
 
             if(response.status === 200){
                 this.closeDeleteModal();
