@@ -1,14 +1,16 @@
 # Azure-blob
-
-This template should help get you started developing with Vue 3 in Vite.
-
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+Index
+![Image URl](https://github.com/temurkodirov/AzureBlob/blob/main/Presentation/index.png)
+Player
+![Image URL](https://github.com/temurkodirov/AzureBlob/blob/main/Presentation/player.png)
+Login
+![Image URL](https://github.com/temurkodirov/AzureBlob/blob/main/Presentation/login.png)
+Admin Dashboard
+![Image URL](https://github.com/temurkodirov/AzureBlob/blob/main/Presentation/adminPanel.png)
+Upload video
+![Image URL](https://github.com/temurkodirov/AzureBlob/blob/main/Presentation/upload.png)
+Status bar
+![Image URL](https://github.com/temurkodirov/AzureBlob/blob/main/Presentation/uploadStatusBar.png)
 
 ## Project Setup
 
@@ -20,16 +22,4 @@ npm install
 
 ```sh
 npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
 ```
